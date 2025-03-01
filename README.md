@@ -12,7 +12,9 @@ Introduction
 Specifically, given a source pre-trained model, we first introduce an unknown diffuser that can determine whether classes in space need to be split and merged through similarity measures, to estimate and generate a wider class space distribution, including known and unknown classes. Based on
 such a wider space distribution, we enhance the reliability of known class knowledge in the source pre-trained model through contrastive constraint. Finally, various supervision information, including reliable known class knowledge and clustered pseudo-labels, optimize the model for impressive knowledge transfer and generalization. Extensive experiments show that our network can achieve superior exploration and knowledge generalization on unknown classes, while with excellent known class transfer. 
 
-
+Framework
+---
+![image-20250301171723334](C:\Users\wan\AppData\Roaming\Typora\typora-user-images\image-20250301171723334.png)
 
 
 
