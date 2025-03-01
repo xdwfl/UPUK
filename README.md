@@ -14,7 +14,7 @@ such a wider space distribution, we enhance the reliability of known class knowl
 
 Framework
 ---
-![image-20250301171723334](C:\Users\wan\AppData\Roaming\Typora\typora-user-images\image-20250301171723334.png)
+![image-20250301171723334](https://github.com/xdwfl/UPUK/blob/master/framework.png)
 
 
 
