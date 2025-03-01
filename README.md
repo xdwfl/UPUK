@@ -30,11 +30,11 @@ Dataset
 
 We conduct extensive experiments on three standard domain adaptation benchmarks:
 
-- Office
+- Office-31
 - OfficeHome
 - VisDA
 
-Please manually download these datasets from the official websites and put them on the correct position. 
+Please manually download these datasets from the official websites. 
 
 
 
