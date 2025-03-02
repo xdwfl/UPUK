@@ -35,8 +35,3 @@ We conduct extensive experiments on three standard domain adaptation benchmarks:
 - VisDA
 
 Please manually download these datasets from the official websites. 
-
-
-
-Training
----
