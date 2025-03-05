@@ -223,7 +223,7 @@ def train_target(args):
         inputs_test = inputs_test.cuda()
 
         iter_num += 1
-        alpha =  (1 + 10 * iter_num / max_iter)**(-args.beta)
+        alpha = 1 #(1 + 10 * iter_num / max_iter)**(-args.beta)
         lr_scheduler(optimizer, iter_num=iter_num, max_iter=max_iter)
 
         pred = mem_label[tar_idx]
