@@ -339,7 +339,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     if args.dset == 'office-home':
-        names = ['Art','Product','RealWorld']
+        names = ['Art','Product']
         args.class_num = 65
 
     device = torch.device('cuda:2' if torch.cuda.is_available() else 'cpu')
