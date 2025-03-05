@@ -35,3 +35,33 @@ We conduct extensive experiments on three standard domain adaptation benchmarks:
 - VisDA
 
 Please manually download these datasets from the official websites. 
+
+
+Training
+---
+
+Please note that the code we released is on A2P task of Office-Home as an example. Other tasks are being updated.
+
+```
+#Source Pre-training Model Preparing
+python image_source.py
+
+#Target Domain Adaptation
+python target_train.py
+```
+
+
+Citation
+---
+
+If our work is helpful to you, please follow this paper:
+
+```
+@inproceedings{wan2024unveiling,
+  title={Unveiling the Unknown: Unleashing the Power of Unknown to Known in Open-Set Source-Free Domain Adaptation},
+  author={Wan, Fuli and Zhao, Han and Yang, Xu and Deng, Cheng},
+  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  pages={24015--24024},
+  year={2024}
+}
+```
